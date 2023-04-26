@@ -1,12 +1,5 @@
 var addresses = [
-  "discord.com",
-  "google.com",
-  "microsoft.com",
-  "yahoo.com",
-  "mail.google.com",
-  "mail.yahoo.com",
-  "live.microsoft.com",
-  "help.google.com"
+  "discord.com"
 ]
 addEventListener("fetch", event => {
   var url = new URL(event.request.url)
